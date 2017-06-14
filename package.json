@@ -1,0 +1,26 @@
+{
+  "name": "jest-mocks-issue",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "cowmoo",
+  "license": "MIT",
+  "scripts": {
+    "downgrade": "yarn add --dev jest@19.x.x",
+    "upgrade": "yarn add --dev jest@latest",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  },
+  "jest": {
+    "moduleDirectories": [
+      "<rootDir>/src",
+      "<rootDir>/node_modules"
+    ]
+  }
+}
